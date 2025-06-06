@@ -75,12 +75,12 @@
           fetch="https://github.com/Freescale"/>
   <project name="meta-freescale"
            remote="freescale"
-           revision="a82f138b140f613a06bf9ac60101e4bb511c309f"
+           revision="0627128b341cfb2bef7a0832ce8cac0ce1127f13"
            upstream="scarthgap"
            path="sources/meta-freescale"/>
   <project name="meta-freescale-3rdparty"
            remote="freescale"
-           revision="70c83e96c7f75e73245cb77f1b0cada9ed4bbc6d"
+           revision="6c063450d464eb2f380443c7d9af1b94ce9b9d75"
            upstream="scarthgap"
            path="sources/meta-freescale-3rdparty"/>
   <project name="meta-freescale-distro"
@@ -199,7 +199,7 @@
   <project name="meta-imx"
            remote="imx"
            path="sources/meta-imx"
-           revision="013670cd6a6a7363d824b33816e87a520745bca4"
+           revision="219f6d04a4c339eb6f2dc626f944bbdf9a716ff5"
            upstream="scarthgap-6.6.52-2.2.0" />
   <project name="meta-nxp-connectivity"
            remote="imx"
