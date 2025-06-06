@@ -154,7 +154,7 @@
   <project name="build-imx8mm-var-dart"
            remote="mitec"
            path="build-imx8mm-var-dart"
-           revision="c4c351d7fba05a1901abbdb04af0fb082447b2fc"
+           revision="d71ba98a5a72d816733c09f9cc74420ca2302494"
            upstream="scarthgap" />
 
   <!-- variscite -->
