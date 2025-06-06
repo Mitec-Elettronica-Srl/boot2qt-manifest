@@ -86,7 +86,7 @@
   <project name="meta-freescale-distro"
            remote="freescale"
            path="sources/meta-freescale-distro"
-           revision="b9c3536b68271c420fe5de36fc284781ceaa32ab"
+           revision="b9d6a5d9931922558046d230c1f5f4ef6ee72345"
            upstream="scarthgap"/>
 
   <!-- Raspberry Pi -->
