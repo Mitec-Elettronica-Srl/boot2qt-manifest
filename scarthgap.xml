@@ -156,6 +156,11 @@
            path="build-imx8mm-var-dart"
            revision="d71ba98a5a72d816733c09f9cc74420ca2302494"
            upstream="scarthgap" />
+  <project name="meta-MT376R2V1H0"
+           remote="mitec"
+           path="sources/meta-MT376R2V1H0"
+           revision="b9eafeeed850a1575e4905fab6b7d8ceff67563b"
+           upstream="main" />
 
   <!-- variscite -->
   <remote name="variscite"
