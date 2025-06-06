@@ -25,3 +25,9 @@ Then you can proceed at building targets:
 ```sh
 bitbake <target>
 ```
+
+
+## Supported Devices
+
+The following is a list of supported devices (MACHINE names):
+  - imx8mm-var-dart
