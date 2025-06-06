@@ -141,7 +141,7 @@
   <!-- MITEC -->
   <remote name="mitec"
           fetch="https://github.com/Mitec-Elettronica-Srl" />
-  <project name="meta-variscite-bsp-common"
+  <project name="build-imx8mm-var-dart"
            remote="mitec"
            path="build-imx8mm-var-dart"
            revision="1bb4961bac471cd764078a721d920a8155f0a7d8"
