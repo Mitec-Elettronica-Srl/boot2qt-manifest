@@ -17,7 +17,7 @@
            path="sources/meta-mingw"/>
   <project name="meta-virtualization"
            remote="yocto"
-           revision="2dc87493ed5f1477ec2660ab7f5e62b80ace9bb4"
+           revision="9e040ee8dd6025558ea60ac9db60c41bfeddf221"
            upstream="scarthgap"
            path="sources/meta-virtualization" />
   <project name="meta-security"
