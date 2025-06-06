@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default upstream="scarthgap"/>
+
+  <!-- Yocto -->
+  <remote name="yocto"
+          fetch="git://git.yoctoproject.org"/>
+  <project name="poky"
+           remote="yocto"
+           revision="refs/tags/yocto-5.0.9"
+           upstream="scarthgap"
+           path="sources/poky"/>
+  <project name="meta-mingw"
+           remote="yocto"
+           revision="refs/tags/yocto-5.0.9"
+           upstream="scarthgap"
+           path="sources/meta-mingw"/>
+  <project name="meta-virtualization"
+           remote="yocto"
+           revision="2dc87493ed5f1477ec2660ab7f5e62b80ace9bb4"
+           upstream="scarthgap"
+           path="sources/meta-virtualization" />
+
+  <!-- OpenEmbedded -->
+  <remote name="oe"
+          fetch="git://git.openembedded.org"/>
+  <project name="meta-openembedded"
+           remote="oe"
+           revision="491671faee11ea131feab5a3a451d1a01deb2ab1"
+           upstream="scarthgap"
+           path="sources/meta-openembedded"/>
+
+  <!-- Clang -->
+  <remote name="kraj"
+          fetch="https://github.com/kraj"/>
+  <project name="meta-clang"
+           remote="kraj"
+           revision="eaa08939eaec9f620b14742ff3ac568553683034"
+           upstream="scarthgap"
+           path="sources/meta-clang"/>
+
+  <!-- Boot to Qt -->
+  <remote name="qt"
+          fetch="git://code.qt.io/yocto"
+          pushurl="ssh://codereview.qt-project.org/yocto"/>
+  <remote name="gerrit"
+          fetch="ssh://codereview.qt-project.org/yocto"/>
+  <project name="meta-boot2qt"
+           remote="qt"
+           revision="ad4d94d64194319b23e1da19c2975bf9ff2cae8f"
+           upstream="scarthgap"
+           path="sources/meta-boot2qt">
+    <linkfile dest="setup-environment.sh" src="scripts/setup-environment.sh"/>
+  </project>
+
+  <!-- ARM -->
+  <project name="meta-arm"
+           remote="yocto"
+           path="sources/meta-arm"
+           revision="8e0f8af90fefb03f08cd2228cde7a89902a6b37c"
+           upstream="scarthgap" />
+
+  <!-- NXP -->
+  <remote name="freescale"
+          fetch="https://github.com/Freescale"/>
+  <project name="meta-freescale"
+           remote="freescale"
+           revision="a82f138b140f613a06bf9ac60101e4bb511c309f"
+           upstream="scarthgap"
+           path="sources/meta-freescale"/>
+  <project name="meta-freescale-3rdparty"
+           remote="freescale"
+           revision="70c83e96c7f75e73245cb77f1b0cada9ed4bbc6d"
+           upstream="scarthgap"
+           path="sources/meta-freescale-3rdparty"/>
+  <project name="meta-freescale-distro"
+           remote="community"
+           path="sources/meta-freescale-distro"
+           revision="b9c3536b68271c420fe5de36fc284781ceaa32ab"
+           upstream="scarthgap"/>
+
+  <!-- Raspberry Pi -->
+  <project name="meta-raspberrypi"
+           remote="yocto"
+           revision="37975104a6945aa60f923333a878881b6a3ad712"
+           upstream="scarthgap"
+           path="sources/meta-raspberrypi"/>
+
+  <!-- Intel -->
+  <remote name="intel"
+          fetch="git://git.yoctoproject.org"/>
+  <project name="meta-intel"
+           remote="intel"
+           revision="0be954e82f09d235d2b5e5ea01bb62ffa8d0b5f7"
+           upstream="scarthgap"
+           path="sources/meta-intel"/>
+
+  <!-- NVIDIA -->
+  <remote name="OE4T"
+          fetch="https://github.com/OE4T"/>
+  <project name="meta-tegra"
+           remote="OE4T"
+           revision="3683a5aae81f73d26e354eae16fea1830cbb642e"
+           upstream="scarthgap-l4t-r35.x"
+           path="sources/meta-tegra"/>
+
+  <!-- Qt -->
+  <project name="meta-qt6"
+           remote="qt"
+           revision="refs/tags/v6.8.3"
+           upstream="6.8.3"
+           path="sources/meta-qt6"/>
+
+  <!-- Browser -->
+  <remote name="ossystems"
+          fetch="https://github.com/OSSystems"/>
+  <project name="meta-browser"
+           remote="ossystems"
+           path="sources/meta-browser"
+           upstream="scarthgap"
+           revision="2dabbb1bc1488f244bf66674fe7268a44dcc0d79" />
+
+  <!-- timesys -->
+  <remote name="timesys"
+          fetch="https://github.com/TimesysGit" />
+   <project name="meta-timesys"
+            remote="timesys"
+            path="sources/meta-timesys"
+            revision="9198603d7d11367dcce1c2516857ab1db41f132f"
+            upstream="scarthgap" />
+
+  <!-- swupdate -->
+  <remote name="sbabic"
+          fetch="https://github.com/sbabic" />
+  <project name="meta-swupdate"
+           remote="sbabic"
+           path="sources/meta-swupdate"
+           revision="d598d4e675b541301ea1dfc8f0c8931983b4dcd0"
+           upstream="scarthgap" />
+
+  <!-- MITEC -->
+  <remote name="mitec"
+          fetch="https://github.com/Mitec-Elettronica-Srl" />
+  <project name="meta-variscite-bsp-common"
+           remote="mitec"
+           path="build-imx8mm-var-dart"
+           revision="5c44031e2478c7763e12a3e41c2518d2963d0d2c"
+           upstream="scarthgap" />
+
+  <!-- variscite -->
+  <remote name="variscite"
+          fetch="https://github.com/varigit" />
+  <project name="meta-variscite-bsp-common"
+           remote="mitec"
+           path="sources/meta-variscite-bsp-common"
+           revision="3632dd683d9fcc85e50577ca4f401d7ae13d05a7"
+           upstream="scarthgap_6.6.52-2.2.0_var01" />
+  <project name="meta-variscite-bsp-imx"
+           remote="variscite"
+           path="sources/meta-variscite-bsp-imx"
+           revision="29e4bd0b2057439658031a652c86bbc119267f3d"
+           upstream="scarthgap_6.6.52-2.2.0_var01" />
+  <project name="meta-variscite-hab"
+           remote="variscite"
+           path="sources/meta-variscite-hab"
+           revision="da8cd419f7aee64dd3f231c59de52a3c5f803ed6"
+           upstream="scarthgap_6.6.52-2.2.0_var01"/>
+  <project name="meta-variscite-sdk-common"
+           remote="variscite"
+           path="sources/meta-variscite-sdk-common"
+           revision="0df45874209b363defdccf266504948bb385d332"
+           upstream="scarthgap_6.6.52-2.2.0_var01" />
+  <project name="meta-variscite-sdk-imx"
+           remote="variscite"
+           path="sources/meta-variscite-sdk-imx"
+           revision="ba8833c6916f0dd1f3c972c770f1b66f9765478c"
+           upstream="scarthgap_6.6.52-2.2.0_var01" />
+  <project name="variscite-bsp-base"
+           remote="variscite"
+           path="sources/base"
+           revision="1dc49a2d3768adc7db818f54ee4d8f5eef7b6bbc"
+           upstream="scarthgap_6.6.52-2.2.0_var01" />
+
+  <!-- imx -->
+  <remote name="imx"
+          fetch="https://github.com/nxp-imx" />
+  <remote name="imx-support"
+          fetch="https://github.com/nxp-imx-support" />
+  <project name="meta-nxp-connectivity"
+           remote="imx"
+           path="sources/meta-nxp-connectivity"
+           revision="f58365ec75a5768ff3e8e8bcd64f237738c93160"
+           upstream="imx_matter_2024_q3-post" />
+  <project name="meta-nxp-demo-experience"
+           remote="imx-support"
+           path="sources/meta-nxp-demo-experience"
+           revision="e8e646e22b1f926aac83bb7ad522efa9cd8ccc45"
+           upstream="scarthgap-6.6.52-2.2.0" />
+
+</manifest>
