@@ -144,7 +144,7 @@
   <project name="meta-variscite-bsp-common"
            remote="mitec"
            path="build-imx8mm-var-dart"
-           revision="5c44031e2478c7763e12a3e41c2518d2963d0d2c"
+           revision="1bb4961bac471cd764078a721d920a8155f0a7d8"
            upstream="scarthgap" />
 
   <!-- variscite -->
