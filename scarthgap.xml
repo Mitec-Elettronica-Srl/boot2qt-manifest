@@ -20,6 +20,16 @@
            revision="2dc87493ed5f1477ec2660ab7f5e62b80ace9bb4"
            upstream="scarthgap"
            path="sources/meta-virtualization" />
+  <project name="meta-security"
+           remote="yocto"
+           revision="bc865c5276c2ab4031229916e8d7c20148dfbac3"
+           upstream="scarthgap"
+           path="sources/meta-security" />
+  <project name="meta-lts-mixins"
+           remote="yocto"
+           revision="a8046d5ec53b1856169ac795aa87cb0d5db84c04"
+           upstream="scarthgap/rust"
+           path="sources/meta-lts-mixins" />
 
   <!-- OpenEmbedded -->
   <remote name="oe"
@@ -186,6 +196,11 @@
           fetch="https://github.com/nxp-imx" />
   <remote name="imx-support"
           fetch="https://github.com/nxp-imx-support" />
+  <project name="meta-imx"
+           remote="imx"
+           path="sources/meta-imx"
+           revision="013670cd6a6a7363d824b33816e87a520745bca4"
+           upstream="scarthgap-6.6.52-2.2.0" />
   <project name="meta-nxp-connectivity"
            remote="imx"
            path="sources/meta-nxp-connectivity"
