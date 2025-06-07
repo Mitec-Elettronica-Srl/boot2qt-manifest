@@ -161,6 +161,11 @@
            path="sources/meta-MT376R2V1H0"
            revision="b9eafeeed850a1575e4905fab6b7d8ceff67563b"
            upstream="main" />
+  <project name="meta-mitec"
+           remote="mitec"
+           path="sources/meta-mitec"
+           revision="feca054e0aafa59f7bb8795c15af7376fd38ee16"
+           upstream="main" />
 
   <!-- variscite -->
   <remote name="variscite"
