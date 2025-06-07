@@ -62,10 +62,10 @@ bitbake <target>
 
 ## Tips and Tricks
 
-When building in a machine with a large number of cores and not much RAM do the following to limit resources usage:
+When building in a machine with a large number of cores (like 28 or higher) and not much RAM do the following to limit resources usage:
 ```sh
 export BB_NUMBER_THREADS="6"
-export PARALLEL_MAKE="-j4"
+export PARALLEL_MAKE="-j6"
 ```
 
 These must be done before sourcing setup-environment.sh
