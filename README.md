@@ -32,7 +32,13 @@ Also remember to install python2.7 and symlink python executable to python3.
 
 ## How To
 
-First download sources using the repo tool (the same one used to fetch android):
+First of all create a new directoy to hold sources and compilation results:
+```sh
+mkdir b2qt_mitec
+cd b2qt_mitec
+```
+
+Then download sources using the repo tool (the same one used to fetch android):
 
 ```sh
 repo init -u  https://github.com/Mitec-Elettronica-Srl/boot2qt-manifest.git -m scarthgap.xml
