@@ -7,13 +7,13 @@
           fetch="git://git.yoctoproject.org"/>
   <project name="poky"
            remote="yocto"
-           revision="refs/tags/yocto-5.0.7"
+           revision="refs/tags/yocto-5.0.8"
            upstream="scarthgap"
            path="sources/poky"/>
   <!-- need that specific commit to build otherwise 5.0.7 -->
   <project name="meta-mingw"
            remote="yocto"
-           revision="c7e8807ddd2671956d9e1d15303e36dff9a22727"
+           revision="refs/tags/yocto-5.0.8""
            upstream="scarthgap"
            path="sources/meta-mingw"/>
   <project name="meta-virtualization"
