@@ -159,7 +159,7 @@
   <project name="meta-MT376R2V1H0"
            remote="mitec"
            path="sources/meta-MT376R2V1H0"
-           revision="fcb4202087fb66c84b1166f20f9534d586097639"
+           revision="a66b32972aee558feef8c729060eaa3bd31420c6"
            upstream="scarthgap" />
   <project name="meta-mitec"
            remote="mitec"
