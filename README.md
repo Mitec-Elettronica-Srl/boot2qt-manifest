@@ -60,6 +60,17 @@ Then you can proceed at building targets:
 bitbake <target>
 ```
 
+## Tips and Tricks
+
+When building in a machine with a large number of cores and not much RAM do the following to limit resources usage:
+```sh
+export BB_NUMBER_THREADS="6"
+export PARALLEL_MAKE="-j4"
+```
+
+These must be done before sourcing setup-environment.sh
+
+__WARNING__: Doing an unrestricted build will easily occupy more than 60GB of swap.
 
 ## Supported Devices
 
