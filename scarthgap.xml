@@ -10,7 +10,6 @@
            revision="refs/tags/yocto-5.0.8"
            upstream="scarthgap"
            path="sources/poky"/>
-  <!-- need that specific commit to build otherwise 5.0.7 -->
   <project name="meta-mingw"
            remote="yocto"
            revision="refs/tags/yocto-5.0.8"
