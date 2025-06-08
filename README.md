@@ -24,10 +24,15 @@ export PATH="~/bin:$PATH"
 On ubuntu and debian-based distributions install the following:
 
 ```sh
-sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib build-essential chrpath socat libsdl1.2-dev xterm file git git-lfs nano
+sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib build-essential chrpath socat libsdl1.2-dev xterm file git git-lfs nano libxkbcommon-tools
 ```
 
-Also remember to install python2.7 and symlink python executable to python3.
+Also remember to install python2.7 and symlink python executable to python3: you can clone this repo (you will also find it on .repo folder after init):
+
+```sh
+cd python2.7
+sudo dpkg -i *.deb
+```
 
 
 ## How To
