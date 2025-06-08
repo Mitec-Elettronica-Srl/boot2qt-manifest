@@ -145,7 +145,7 @@
   <project name="meta-swupdate"
            remote="sbabic"
            path="sources/meta-swupdate"
-           revision="d598d4e675b541301ea1dfc8f0c8931983b4dcd0"
+           revision="43ef322cbf5b91d84b007c343cf73e9b01699594"
            upstream="scarthgap" />
 
   <!-- MITEC -->
