@@ -73,19 +73,16 @@
   <!-- NXP -->
   <remote name="freescale"
           fetch="https://github.com/Freescale"/>
-  <!-- meta-freescale: a82f138b140f613a06bf9ac60101e4bb511c309f -->
   <project name="meta-freescale"
            remote="freescale"
-           revision="0627128b341cfb2bef7a0832ce8cac0ce1127f13"
+           revision="a82f138b140f613a06bf9ac60101e4bb511c309f"
            upstream="scarthgap"
            path="sources/meta-freescale"/>
-  <!-- meta-freescale-3rdparty: 70c83e96c7f75e73245cb77f1b0cada9ed4bbc6d -->
   <project name="meta-freescale-3rdparty"
            remote="freescale"
-           revision="6c063450d464eb2f380443c7d9af1b94ce9b9d75"
+           revision="70c83e96c7f75e73245cb77f1b0cada9ed4bbc6d"
            upstream="scarthgap"
            path="sources/meta-freescale-3rdparty"/>
-  <!-- meta-freescale-distro: b9c3536b68271c420fe5de36fc284781ceaa32ab -->
   <project name="meta-freescale-distro"
            remote="freescale"
            path="sources/meta-freescale-distro"
