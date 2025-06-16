@@ -181,7 +181,7 @@
   <project name="meta-variscite-bsp-imx"
            remote="mitec"
            path="sources/meta-variscite-bsp-imx"
-           revision="8abe4e3d5d7644d0d855540d60812827c4395b53"
+           revision="6c1e5fbe5d436c34fc890be48290d0a68574e56c"
            upstream="scarthgap" />
   <project name="meta-variscite-hab"
            remote="variscite"
