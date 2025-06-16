@@ -179,10 +179,10 @@
            revision="3632dd683d9fcc85e50577ca4f401d7ae13d05a7"
            upstream="scarthgap_6.6.52-2.2.0_var01" />
   <project name="meta-variscite-bsp-imx"
-           remote="variscite"
+           remote="mitec"
            path="sources/meta-variscite-bsp-imx"
-           revision="29e4bd0b2057439658031a652c86bbc119267f3d"
-           upstream="scarthgap_6.6.52-2.2.0_var01" />
+           revision="98b79fffdeee33755b7f6f488597fc1c1abb155d"
+           upstream="scarthgap" />
   <project name="meta-variscite-hab"
            remote="variscite"
            path="sources/meta-variscite-hab"
