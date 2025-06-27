@@ -162,12 +162,12 @@
   <project name="meta-MT376R2V1H0"
            remote="mitec"
            path="sources/meta-MT376R2V1H0"
-           revision="89e1caf05211d830227c8a06444c03764eb560ba"
+           revision="d2a329a9a6306faf9fcb8278071f3c1142cb8b86"
            upstream="scarthgap" />
   <project name="meta-mitec"
            remote="mitec"
            path="sources/meta-mitec"
-           revision="a05ebec09777b7fd94b8a19832d7588451243934"
+           revision="89e1caf05211d830227c8a06444c03764eb560ba"
            upstream="scarthgap" />
 
   <!-- variscite -->
