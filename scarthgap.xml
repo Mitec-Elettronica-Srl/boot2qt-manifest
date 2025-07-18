@@ -157,8 +157,11 @@
   <project name="embedded_quickstart"
            remote="neroreflex"
            path="sources/embedded_quickstart"
-           revision="cafe397609a69d0c87349d5bae66be84067ad5f8"
-           upstream="scarthgap" />
+           revision="7cf807de96be833bc0b89b0342ba8175ac5a1fab"
+           upstream="scarthgap" >
+
+        <linkfile dest="build.sh" src="meta-embedded_quickstart/build.sh"/>
+  </project>
 
   <!-- MITEC -->
   <remote name="mitec"
