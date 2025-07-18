@@ -157,7 +157,7 @@
   <project name="embedded_quickstart"
            remote="neroreflex"
            path="sources/embedded_quickstart"
-           revision="db6ae43b3effaccd3fd0dfd1b35ba6df24d6e3c4"
+           revision="ccb9a6a3789128ae1563257f78414ac54941e537"
            upstream="scarthgap" />
 
   <!-- MITEC -->
@@ -166,7 +166,7 @@
   <project name="build-imx8mm-var-dart"
            remote="mitec"
            path="build-imx8mm-var-dart"
-           revision="bc5df0a1942e410833c7aacc7dfbd96b0d2ca950"
+           revision="e63f679c2423113baec3710b609c379caf9d868a"
            upstream="scarthgap" />
   <project name="meta-MT376R2V1H0"
            remote="mitec"
