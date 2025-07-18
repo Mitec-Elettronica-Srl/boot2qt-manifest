@@ -157,7 +157,7 @@
   <project name="embedded_quickstart"
            remote="neroreflex"
            path="sources/embedded_quickstart"
-           revision="7ad3b8d3ccc9d72c51a88637e766dadebf04a864"
+           revision="3f0e4f40b5f06e4d02228a4f06e9a6619213a767"
            upstream="scarthgap" />
 
   <!-- MITEC -->
