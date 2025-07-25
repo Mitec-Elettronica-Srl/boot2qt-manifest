@@ -157,7 +157,7 @@
   <project name="embedded_quickstart"
            remote="neroreflex"
            path="sources/embedded_quickstart"
-           revision="194ebf5c389c3d8a5b4462d4e1bbd62ba909a683"
+           revision="4a50ad9a5a7b178b97411bf793960c3169d11372"
            upstream="scarthgap" >
 
         <linkfile dest="compile.sh" src="meta-embedded_quickstart/build.sh"/>
