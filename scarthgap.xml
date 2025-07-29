@@ -169,7 +169,7 @@
   <project name="build-imx8mm-var-dart"
            remote="mitec"
            path="build-imx8mm-var-dart"
-           revision="6157755232ce3f07876ac753bc5650ff1cb650c0"
+           revision="9dab32edbd1addf6e3b68ef80f2c45d2b5069067"
            upstream="scarthgap" />
   <project name="meta-MT376R2V1H0"
            remote="mitec"
