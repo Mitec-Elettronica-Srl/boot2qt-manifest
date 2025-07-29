@@ -157,7 +157,7 @@
   <project name="embedded_quickstart"
            remote="neroreflex"
            path="sources/embedded_quickstart"
-           revision="e6a85f3352812299dacee3f97ec13d655587a1cd"
+           revision="c01a55d331e31935708c90193037eec26430eec3"
            upstream="scarthgap" >
 
         <linkfile dest="compile.sh" src="meta-embedded_quickstart/build.sh"/>
@@ -179,7 +179,7 @@
   <project name="meta-mitec"
            remote="mitec"
            path="sources/meta-mitec"
-           revision="ecfead7e6004bca8027aef51db92dac341868984"
+           revision="f5bad94dcae47ec28ba959b681cd852f8cfa9de3"
            upstream="scarthgap" />
 
   <!-- variscite -->
