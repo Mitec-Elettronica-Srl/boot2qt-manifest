@@ -104,7 +104,7 @@
           fetch="git://git.yoctoproject.org"/>
   <project name="meta-intel"
            remote="intel"
-           revision="0be954e82f09d235d2b5e5ea01bb62ffa8d0b5f7"
+           revision="38e75c8c1059e5f37659c140c010eaa203238fd2"
            upstream="scarthgap"
            path="sources/meta-intel"/>
 
