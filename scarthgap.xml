@@ -95,7 +95,7 @@
   <!-- Raspberry Pi -->
   <project name="meta-raspberrypi"
            remote="yocto"
-           revision="1f2045321afd6ef20b457266ac3e97c8577eb1c4"
+           revision="1091bde25e9ebaea33114edb85e4aee931d105f3"
            upstream="scarthgap"
            path="sources/meta-raspberrypi"/>
 
