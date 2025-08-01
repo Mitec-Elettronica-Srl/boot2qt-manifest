@@ -36,7 +36,7 @@
           fetch="git://git.openembedded.org"/>
   <project name="meta-openembedded"
            remote="oe"
-           revision="491671faee11ea131feab5a3a451d1a01deb2ab1"
+           revision="e8fd97d86af86cdcc5a6eb3f301cbaf6a2084943"
            upstream="scarthgap"
            path="sources/meta-openembedded"/>
 
