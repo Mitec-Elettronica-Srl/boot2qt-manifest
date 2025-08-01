@@ -7,12 +7,12 @@
           fetch="git://git.yoctoproject.org"/>
   <project name="poky"
            remote="yocto"
-           revision="9b0e95db584602a13e46ed86b73930506b13e4a9"
+           revision="refs/tags/yocto-5.0.11"
            upstream="scarthgap"
            path="sources/poky"/>
   <project name="meta-mingw"
            remote="yocto"
-           revision="refs/tags/yocto-5.0.9"
+           revision="refs/tags/yocto-5.0.11"
            upstream="scarthgap"
            path="sources/meta-mingw"/>
   <project name="meta-virtualization"
