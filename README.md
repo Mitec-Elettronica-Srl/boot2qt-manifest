@@ -27,7 +27,9 @@ On ubuntu and debian-based distributions install the following:
 sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib build-essential chrpath socat libsdl1.2-dev xterm file git git-lfs nano libxkbcommon-tools
 ```
 
-Also remember to install python2.7 and symlink python executable to python3: you can clone this repo (you will also find it on .repo folder after init):
+## Python 2.7 (not needed anymore)
+
+If you enable certain browsers to be compiled you will have to install python2.7 and symlink python executable to python3: you can clone this repo (you will also find it on .repo folder after init):
 
 ```sh
 cd python2.7
