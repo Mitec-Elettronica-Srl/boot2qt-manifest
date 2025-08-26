@@ -25,7 +25,7 @@ export PATH="~/bin:$PATH"
 On ubuntu and debian-based distributions install the following:
 
 ```sh
-sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib build-essential chrpath socat libsdl1.2-dev xterm file git git-lfs nano libxkbcommon-tools
+sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib build-essential chrpath socat libsdl1.2-dev xterm file git git-lfs nano libxkbcommon-tools libclang-dev
 ```
 
 And then also (verified on debian 12):
