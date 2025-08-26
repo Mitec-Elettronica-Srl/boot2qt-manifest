@@ -14,6 +14,7 @@ Builds are tested in one of these systems:
 Start by installing the repo tool:
 
 ```sh
+mkdir ~/bin
 curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
 
@@ -25,6 +26,12 @@ On ubuntu and debian-based distributions install the following:
 
 ```sh
 sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib build-essential chrpath socat libsdl1.2-dev xterm file git git-lfs nano libxkbcommon-tools
+```
+
+And then also (verified on debian 12):
+
+```sh
+sudo apt-get install build-essential chrpath cpio debianutils diffstat file gawk gcc git iputils-ping libacl1 liblz4-tool locales python3 python3-git python3-jinja2 python3-pexpect python3-pip python3-subunit socat texinfo unzip wget xz-utils zstd
 ```
 
 ## Python 2.7 (not needed anymore)
