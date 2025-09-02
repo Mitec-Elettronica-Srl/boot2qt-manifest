@@ -25,11 +25,21 @@
            revision="bc865c5276c2ab4031229916e8d7c20148dfbac3"
            upstream="scarthgap"
            path="sources/meta-security" />
+  <project name="meta-selinux"
+           remote="yocto"
+           revision="30a49ab1298d2a081089a9e4c760a9e02f8100f6"
+           upstream="scarthgap"
+           path="sources/meta-selinux" />
   <project name="meta-lts-mixins"
            remote="yocto"
            revision="96deb45139df027473faf0938fe006d33c45c375"
            upstream="scarthgap/rust"
            path="sources/meta-lts-mixins" />
+  <project name="meta-tensorflow"
+           remote="yocto"
+           revision="4730f3f8bfeb296f3b94244a5764b40d2ccf7773"
+           upstream="scarthgap"
+           path="sources/meta-tensorflow" />
 
   <!-- OpenEmbedded -->
   <remote name="oe"
@@ -107,6 +117,15 @@
            revision="b065676a83371b34559f2077d9b2f6a6ac5652f7"
            upstream="scarthgap"
            path="sources/meta-intel"/>
+
+  <!-- Intel -->
+  <remote name="amd"
+          fetch="git://git.yoctoproject.org"/>
+  <project name="meta-amd"
+           remote="amd"
+           revision="e591e26ba735dacf5f893154a07becb44a2a12d1"
+           upstream="scarthgap"
+           path="sources/meta-amd"/>
 
   <!-- NVIDIA -->
   <remote name="OE4T"
