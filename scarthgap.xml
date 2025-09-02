@@ -95,7 +95,7 @@
   <!-- Raspberry Pi -->
   <project name="meta-raspberrypi"
            remote="yocto"
-           revision="1091bde25e9ebaea33114edb85e4aee931d105f3"
+           revision="aaf976a665daa7e520545908adef8a0e9410b57f"
            upstream="scarthgap"
            path="sources/meta-raspberrypi"/>
 
@@ -104,7 +104,7 @@
           fetch="git://git.yoctoproject.org"/>
   <project name="meta-intel"
            remote="intel"
-           revision="38e75c8c1059e5f37659c140c010eaa203238fd2"
+           revision="b065676a83371b34559f2077d9b2f6a6ac5652f7"
            upstream="scarthgap"
            path="sources/meta-intel"/>
 
