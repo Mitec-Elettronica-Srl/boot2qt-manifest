@@ -176,7 +176,7 @@
   <project name="embedded_quickstart"
            remote="neroreflex"
            path="sources/embedded_quickstart"
-           revision="112dadce1abd1e83798e924fee087aabc74de34a"
+           revision="5ff7df9b8c41a5ff16008ac1aba752483701d47f"
            upstream="scarthgap" >
 
         <linkfile dest="compile.sh" src="meta-embedded_quickstart/build.sh"/>
@@ -188,7 +188,7 @@
   <project name="build-imx8mm-var-dart"
            remote="mitec"
            path="build-imx8mm-var-dart"
-           revision="181b10078695be9c3d840b9e13ecc26d740cf91e"
+           revision="22940a974bf10f3694a64e430ca8f9127eb6210b"
            upstream="scarthgap" />
   <project name="meta-MT376R2V1H0"
            remote="mitec"
