@@ -27,7 +27,7 @@
            path="sources/meta-security" />
   <project name="meta-lts-mixins"
            remote="yocto"
-           revision="65c51abe3871d50e599366765838d1478eba093e"
+           revision="96deb45139df027473faf0938fe006d33c45c375"
            upstream="scarthgap/rust"
            path="sources/meta-lts-mixins" />
 
