@@ -241,7 +241,7 @@
   <remote name="imx-support"
           fetch="https://github.com/nxp-imx-support" />
   <project name="meta-imx"
-           remote="imx"
+           remote="mitec"
            path="sources/meta-imx"
            revision="001164547c5094eccbbbc79c10796f6937754bd5"
            upstream="scarthgap-6.6.52-2.2.1" />
