@@ -237,13 +237,13 @@
 
   <!-- imx -->
   <remote name="imx"
-          fetch="https://github.com/nxp-imx" />
+          fetch="https://github.com/Mitec-Elettronica-Srl" />
   <remote name="imx-support"
           fetch="https://github.com/nxp-imx-support" />
   <project name="meta-imx"
            remote="imx"
            path="sources/meta-imx"
-           revision="013670cd6a6a7363d824b33816e87a520745bca4"
+           revision="83d7642fe53f1cd3871cf2b2692b61459237cd64"
            upstream="scarthgap-6.6.52-2.2.0" />
   <project name="meta-nxp-connectivity"
            remote="imx"
