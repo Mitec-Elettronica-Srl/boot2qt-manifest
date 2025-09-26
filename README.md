@@ -57,6 +57,7 @@ Then download sources using the repo tool (the same one used to fetch android):
 ```sh
 repo init -u  https://github.com/Mitec-Elettronica-Srl/boot2qt-manifest.git -m scarthgap.xml
 repo sync -j$(nproc)
+repo forall -c 'git lfs fetch --all && git lfs checkout'
 ```
 
 Then set the MACHINE environment variable and source the environment.
