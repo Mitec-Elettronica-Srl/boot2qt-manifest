@@ -198,7 +198,7 @@
   <project name="meta-mitec"
            remote="mitec"
            path="sources/meta-mitec"
-           revision="1a5ad1855aea06ad1ab6c92112d04818d0a80a41"
+           revision="bb8f1528ed84e46cfbb9e2288573927dcc57d860"
            upstream="scarthgap" />
 
   <!-- variscite -->
