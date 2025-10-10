@@ -188,7 +188,7 @@
   <project name="build-imx8mm-var-dart"
            remote="mitec"
            path="build-imx8mm-var-dart"
-           revision="4f90b197c80ed394a20ba4ae304242d86c177b52"
+           revision="fd4c631a639a1127ff8095f5ba0aeb7dd85f8661"
            upstream="scarthgap" />
   <project name="meta-MT376R2V1H0"
            remote="mitec"
@@ -198,7 +198,7 @@
   <project name="meta-mitec"
            remote="mitec"
            path="sources/meta-mitec"
-           revision="42d852d57c37abc0b48c4e34b4c6239aac876ba5"
+           revision="310e51bdd9e1f9410c46f478abd491c553a613df"
            upstream="scarthgap" />
 
   <!-- variscite -->
