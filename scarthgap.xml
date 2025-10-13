@@ -22,7 +22,7 @@
            path="sources/meta-mingw"/>
   <project name="meta-virtualization"
            remote="yocto"
-           revision="02f72c96bf9acd0bd3ae0463f482bce8feabe749"
+           revision="af1db2042caf8021d767dce1b26c08b59b96f3d1"
            upstream="scarthgap"
            path="sources/meta-virtualization" />
   <project name="meta-security"
@@ -32,7 +32,7 @@
            path="sources/meta-security" />
   <project name="meta-selinux"
            remote="yocto"
-           revision="30a49ab1298d2a081089a9e4c760a9e02f8100f6"
+           revision="c999577d7ab4b1b54fff61ab15c46a6f9e242d0d"
            upstream="scarthgap"
            path="sources/meta-selinux" />
   <project name="meta-lts-mixins"
@@ -42,7 +42,7 @@
            path="sources/meta-lts-mixins" />
   <project name="meta-tensorflow"
            remote="yocto"
-           revision="4730f3f8bfeb296f3b94244a5764b40d2ccf7773"
+           revision="eeee54cfa3c51c1fd99604a0d5f173096bdcf1da"
            upstream="scarthgap"
            path="sources/meta-tensorflow" />
 
@@ -51,7 +51,7 @@
           fetch="git://git.openembedded.org"/>
   <project name="meta-openembedded"
            remote="oe"
-           revision="c29a18fa39ede952f3f6108ec007c1906e2d9a0d"
+           revision="e621da947048842109db1b4fd3917a02e0501aa2"
            upstream="scarthgap"
            path="sources/meta-openembedded"/>
 
@@ -60,8 +60,8 @@
           fetch="https://github.com/kraj"/>
   <project name="meta-clang"
            remote="kraj"
-           revision="6691e4bc47e20b903dc3dd7684685086d2468b84"
-           upstream="scarthgap"
+           revision="542db81d5d3cbddf84a150b088b946734460fee6"
+           upstream="scarthgap-clang20"
            path="sources/meta-clang"/>
 
   <!-- Boot to Qt -->
@@ -72,7 +72,7 @@
           fetch="ssh://codereview.qt-project.org/yocto"/>
   <project name="meta-boot2qt"
            remote="qt"
-           revision="ad4d94d64194319b23e1da19c2975bf9ff2cae8f"
+           revision="9b3f0777d381748c16b232a375f1baf73ccf3fa3"
            upstream="scarthgap"
            path="sources/meta-boot2qt">
     <linkfile dest="setup-environment.sh" src="scripts/setup-environment.sh"/>
@@ -82,7 +82,7 @@
   <project name="meta-arm"
            remote="yocto"
            path="sources/meta-arm"
-           revision="8e0f8af90fefb03f08cd2228cde7a89902a6b37c"
+           revision="0f1e7bf92c89759f0ab74cfa5be4ee47b092ad46"
            upstream="scarthgap" />
 
   <!-- NXP -->
