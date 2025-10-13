@@ -5,9 +5,14 @@
   <!-- Yocto -->
   <remote name="yocto"
           fetch="git://git.yoctoproject.org"/>
+
+  <!-- MITEC -->
+  <remote name="mitec"
+          fetch="https://github.com/Mitec-Elettronica-Srl" />
+
   <project name="poky"
-           remote="yocto"
-           revision="refs/tags/yocto-5.0.11"
+           remote="mitec"
+           revision="b8afb2431d51a8c982ecab54c1e6527193701486"
            upstream="scarthgap"
            path="sources/poky"/>
   <project name="meta-mingw"
@@ -182,9 +187,6 @@
         <linkfile dest="compile.sh" src="meta-embedded_quickstart/build.sh"/>
   </project>
 
-  <!-- MITEC -->
-  <remote name="mitec"
-          fetch="https://github.com/Mitec-Elettronica-Srl" />
   <project name="build-imx8mm-var-dart"
            remote="mitec"
            path="build-imx8mm-var-dart"
@@ -198,7 +200,7 @@
   <project name="meta-mitec"
            remote="mitec"
            path="sources/meta-mitec"
-           revision="2e11196e15e7fbee43e7615089c0f6e43635353f"
+           revision="10e1cb58295c0db2ec5e7660789b0a461b679192"
            upstream="scarthgap" />
 
   <!-- variscite -->
