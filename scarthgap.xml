@@ -12,7 +12,7 @@
 
   <project name="poky"
            remote="mitec"
-           revision="1791b85e7cd549300b8b89ddad8ed59d044817a2"
+           revision="6a504defca42578da0ae32c7bb6692b3af306aa8"
            upstream="scarthgap"
            path="sources/poky"/>
   <project name="meta-mingw"
