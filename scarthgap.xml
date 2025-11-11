@@ -72,7 +72,7 @@
           fetch="ssh://codereview.qt-project.org/yocto"/>
   <project name="meta-boot2qt"
            remote="mitec"
-           revision="ad16314d094a99ef2c179b12dea15dd462bb3734"
+           revision="85045db09da697e0f5aaf62ec2629f1defb35f81"
            upstream="scarthgap-mitec"
            path="sources/meta-boot2qt">
     <linkfile dest="setup-environment.sh" src="scripts/setup-environment.sh"/>
