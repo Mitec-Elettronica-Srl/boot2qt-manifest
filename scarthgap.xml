@@ -72,7 +72,7 @@
           fetch="ssh://codereview.qt-project.org/yocto"/>
   <project name="meta-boot2qt"
            remote="mitec"
-           revision="a5117bbe9551e07559acf1cd450dacca40c92b99"
+           revision="2fa9d27965ca440d65db9d2a546dfe841fad336e"
            upstream="scarthgap-correct"
            path="sources/meta-boot2qt">
     <linkfile dest="setup-environment.sh" src="scripts/setup-environment.sh"/>
@@ -190,7 +190,7 @@
   <project name="build-imx8mm-var-dart"
            remote="mitec"
            path="build-imx8mm-var-dart"
-           revision="ab2e9b4c6dba0374958cba7bdace22f2fe1da1db"
+           revision="11e209e31e6c757d47b127683da6868418cf51d2"
            upstream="scarthgap" />
   <project name="meta-MT376R2V1H0"
            remote="mitec"
