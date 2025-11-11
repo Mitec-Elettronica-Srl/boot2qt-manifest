@@ -72,7 +72,7 @@
           fetch="ssh://codereview.qt-project.org/yocto"/>
   <project name="meta-boot2qt"
            remote="mitec"
-           revision="674ef09e82f5d31e73598e97c5de2add70eabb80"
+           revision="68c7df2e9bdbd95ccb5a4f496f98fb4b32eff96c"
            upstream="scarthgap-mitec"
            path="sources/meta-boot2qt">
     <linkfile dest="setup-environment.sh" src="scripts/setup-environment.sh"/>
@@ -181,7 +181,7 @@
   <project name="embedded_quickstart"
            remote="neroreflex"
            path="sources/embedded_quickstart"
-           revision="6001ce665eeee65346b51b539ac1e873d177620c"
+           revision="674ef09e82f5d31e73598e97c5de2add70eabb80"
            upstream="scarthgap" >
 
         <linkfile dest="compile.sh" src="meta-embedded_quickstart/build.sh"/>
