@@ -82,7 +82,7 @@
   <project name="meta-arm"
            remote="yocto"
            path="sources/meta-arm"
-           revision="0f1e7bf92c89759f0ab74cfa5be4ee47b092ad46"
+           revision="a81c19915b5b9e71ed394032e9a50fd06919e1cd"
            upstream="scarthgap" />
 
   <!-- NXP -->
@@ -110,7 +110,7 @@
   <!-- Raspberry Pi -->
   <project name="meta-raspberrypi"
            remote="yocto"
-           revision="aaf976a665daa7e520545908adef8a0e9410b57f"
+           revision="8767e2ff80ec3b09cd70dd22cdb18e783ab20d7b"
            upstream="scarthgap"
            path="sources/meta-raspberrypi"/>
 
@@ -119,7 +119,7 @@
           fetch="git://git.yoctoproject.org"/>
   <project name="meta-intel"
            remote="intel"
-           revision="b065676a83371b34559f2077d9b2f6a6ac5652f7"
+           revision="6fc37057c7f0293a2345e303588901889df8b937"
            upstream="scarthgap"
            path="sources/meta-intel"/>
 
