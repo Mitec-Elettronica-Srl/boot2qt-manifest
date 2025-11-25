@@ -37,7 +37,7 @@ sudo apt-get install build-essential chrpath cpio debianutils diffstat file gawk
 If building for x86_64 install the following to help with secure boot:
 
 ```sh
-sudo apt install libelf-dev efitools libnss3-tools
+sudo apt install libelf-dev efitools libnss3-tools pesign
 ```
 
 ## Python 2.7 (not needed anymore)
