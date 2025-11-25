@@ -34,6 +34,12 @@ And then also (verified on debian 12):
 sudo apt-get install build-essential chrpath cpio debianutils diffstat file gawk gcc git iputils-ping libacl1 liblz4-tool locales python3 python3-git python3-jinja2 python3-pexpect python3-pip python3-subunit socat texinfo unzip wget xz-utils zstd
 ```
 
+If building for x86_64 install the following to help with secure boot:
+
+```sh
+sudo apt install libelf-dev efitools libnss3-tools
+```
+
 ## Python 2.7 (not needed anymore)
 
 If you enable certain browsers to be compiled you will have to install python2.7 and symlink python executable to python3: you can clone this repo (you will also find it on .repo folder after init):
