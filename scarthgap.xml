@@ -72,7 +72,7 @@
           fetch="ssh://codereview.qt-project.org/yocto"/>
   <project name="meta-boot2qt"
            remote="mitec"
-           revision="7a8a96d32c2aff29f422092a41bf2a7f2fab9023"
+           revision="4c03a158bb22e0a34dddf22b64535a2ec19cc7f8"
            upstream="scarthgap-correct"
            path="sources/meta-boot2qt">
     <linkfile dest="setup-environment.sh" src="scripts/setup-environment.sh"/>
@@ -181,12 +181,17 @@
   <project name="embedded_quickstart"
            remote="neroreflex"
            path="sources/embedded_quickstart"
-           revision="1a7a12f42f867167b0773c3feeed89d61436e7e0"
+           revision="29a23a60e4bc0eb0025da8cddc2200c6f63adfd0"
            upstream="scarthgap" >
 
         <linkfile dest="compile.sh" src="meta-embedded_quickstart/build.sh"/>
   </project>
 
+  <project name="build-intel-corei7-64"
+           remote="mitec"
+           path="build-intel-corei7-64"
+           revision="c83eb2123bafaf1f007083aa21383168653d5bd5"
+           upstream="scarthgap" />
   <project name="build-imx8mm-var-dart"
            remote="mitec"
            path="build-imx8mm-var-dart"
