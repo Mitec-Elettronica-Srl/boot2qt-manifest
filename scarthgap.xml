@@ -72,7 +72,7 @@
           fetch="ssh://codereview.qt-project.org/yocto"/>
   <project name="meta-boot2qt"
            remote="mitec"
-           revision="f42398627011dff73176de7f1c93e83bdf90e17f"
+           revision="47714e5cdefd51aa75cd10c56194c9c706e52ed5"
            upstream="scarthgap-correct"
            path="sources/meta-boot2qt">
     <linkfile dest="setup-environment.sh" src="scripts/setup-environment.sh"/>
@@ -200,7 +200,7 @@
   <project name="meta-MT376R2V1H0"
            remote="mitec"
            path="sources/meta-MT376R2V1H0"
-           revision="4bd8bc3840da0656436988938927cbc0a64f54db"
+           revision="837609de8a9107a179ba2f3bb196e3f92a0de09e"
            upstream="scarthgap" />
   <project name="meta-mitec"
            remote="mitec"
