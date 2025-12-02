@@ -11,8 +11,8 @@
           fetch="https://github.com/Mitec-Elettronica-Srl" />
 
   <project name="poky"
-           remote="mitec"
-           revision="cc1e170be86c3354c95a914c848ceb2cb4070b99"
+           remote="yocto"
+           revision="e6bfeed8f3e72c577820e3d01f7d697c4d3fc5d4"
            upstream="scarthgap"
            path="sources/poky"/>
   <project name="meta-mingw"
@@ -72,7 +72,7 @@
           fetch="ssh://codereview.qt-project.org/yocto"/>
   <project name="meta-boot2qt"
            remote="mitec"
-           revision="47714e5cdefd51aa75cd10c56194c9c706e52ed5"
+           revision="3581a0064140f29b59d02c0c1ba5455af6ce0b4a"
            upstream="scarthgap-correct"
            path="sources/meta-boot2qt">
     <linkfile dest="setup-environment.sh" src="scripts/setup-environment.sh"/>
@@ -181,7 +181,7 @@
   <project name="embedded_quickstart"
            remote="neroreflex"
            path="sources/embedded_quickstart"
-           revision="4fdfbd090d7929a178bfb2c231cf96248cce8151"
+           revision="63a97a8b71d75336346abb17b11ff1bdff11ef13"
            upstream="scarthgap" >
 
         <linkfile dest="compile.sh" src="meta-embedded_quickstart/build.sh"/>
