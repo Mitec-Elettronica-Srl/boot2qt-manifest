@@ -91,7 +91,7 @@
   <!-- meta-freescale: a82f138b140f613a06bf9ac60101e4bb511c309f -->
   <project name="meta-freescale"
            remote="freescale"
-           revision="0627128b341cfb2bef7a0832ce8cac0ce1127f13"
+           revision="53650cefee8914fa9c2736ff9011558f22dbdfe1"
            upstream="scarthgap"
            path="sources/meta-freescale"/>
   <!-- meta-freescale-3rdparty: 70c83e96c7f75e73245cb77f1b0cada9ed4bbc6d -->
