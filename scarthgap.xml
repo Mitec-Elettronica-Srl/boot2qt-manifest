@@ -32,7 +32,7 @@
            path="sources/meta-security" />
   <project name="meta-selinux"
            remote="yocto"
-           revision="afbbe28cee4af2c6760aaead43a4a3ef29969809"
+           revision="1db6bf1b573b9c908752602c1e2b6a30368da3b7"
            upstream="scarthgap"
            path="sources/meta-selinux" />
   <project name="meta-lts-mixins"
