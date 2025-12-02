@@ -90,7 +90,7 @@
           fetch="https://github.com/Freescale"/>
   <project name="meta-freescale"
            remote="freescale"
-           revision="cb16b9c0191549925e08458c37b8eaae613b6e4e"
+           revision="31986d570103dbd40be02f3f99c088284dafd373"
            upstream="scarthgap"
            path="sources/meta-freescale"/>
   <!-- meta-freescale-3rdparty: 70c83e96c7f75e73245cb77f1b0cada9ed4bbc6d -->
