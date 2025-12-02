@@ -17,12 +17,12 @@
            path="sources/poky"/>
   <project name="meta-mingw"
            remote="yocto"
-           revision="refs/tags/yocto-5.0.11"
+           revision="refs/tags/yocto-5.0.13"
            upstream="scarthgap"
            path="sources/meta-mingw"/>
   <project name="meta-virtualization"
            remote="yocto"
-           revision="af1db2042caf8021d767dce1b26c08b59b96f3d1"
+           revision="17ac21e7d7f6f40a87618b22278b63bcfa14dbf2"
            upstream="scarthgap"
            path="sources/meta-virtualization" />
   <project name="meta-security"
@@ -32,7 +32,7 @@
            path="sources/meta-security" />
   <project name="meta-selinux"
            remote="yocto"
-           revision="c999577d7ab4b1b54fff61ab15c46a6f9e242d0d"
+           revision="afbbe28cee4af2c6760aaead43a4a3ef29969809"
            upstream="scarthgap"
            path="sources/meta-selinux" />
   <project name="meta-lts-mixins"
@@ -51,7 +51,7 @@
           fetch="git://git.openembedded.org"/>
   <project name="meta-openembedded"
            remote="oe"
-           revision="e621da947048842109db1b4fd3917a02e0501aa2"
+           revision="89a01c3d9ad1f8fce6aeb4dd0e694cfa28d42099"
            upstream="scarthgap"
            path="sources/meta-openembedded"/>
 
