@@ -88,10 +88,9 @@
   <!-- NXP -->
   <remote name="freescale"
           fetch="https://github.com/Freescale"/>
-  <!-- meta-freescale: a82f138b140f613a06bf9ac60101e4bb511c309f -->
   <project name="meta-freescale"
            remote="freescale"
-           revision="53650cefee8914fa9c2736ff9011558f22dbdfe1"
+           revision="cb16b9c0191549925e08458c37b8eaae613b6e4e"
            upstream="scarthgap"
            path="sources/meta-freescale"/>
   <!-- meta-freescale-3rdparty: 70c83e96c7f75e73245cb77f1b0cada9ed4bbc6d -->
