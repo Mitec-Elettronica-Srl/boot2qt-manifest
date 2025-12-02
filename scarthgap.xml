@@ -190,12 +190,12 @@
   <project name="build-intel-corei7-64"
            remote="mitec"
            path="build-intel-corei7-64"
-           revision="c83eb2123bafaf1f007083aa21383168653d5bd5"
+           revision="66dd0ea9a8c33372b82521cf835bd12f3cb6a033"
            upstream="scarthgap" />
   <project name="build-imx8mm-var-dart"
            remote="mitec"
            path="build-imx8mm-var-dart"
-           revision="dd3bd20dc8c129537f4e971f07611a09ed732cfe"
+           revision="f34b35caa7bbc9074bc1eea939293b17ee1689ee"
            upstream="scarthgap" />
   <project name="meta-MT376R2V1H0"
            remote="mitec"
