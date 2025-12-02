@@ -96,7 +96,7 @@
   <!-- meta-freescale-3rdparty: 70c83e96c7f75e73245cb77f1b0cada9ed4bbc6d -->
   <project name="meta-freescale-3rdparty"
            remote="freescale"
-           revision="6c063450d464eb2f380443c7d9af1b94ce9b9d75"
+           revision="70c83e96c7f75e73245cb77f1b0cada9ed4bbc6d"
            upstream="scarthgap"
            path="sources/meta-freescale-3rdparty"/>
   <!-- meta-freescale-distro: b9c3536b68271c420fe5de36fc284781ceaa32ab -->
