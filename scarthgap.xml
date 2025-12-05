@@ -122,7 +122,7 @@
            upstream="scarthgap"
            path="sources/meta-intel"/>
 
-  <!-- Intel -->
+  <!-- AMD -->
   <remote name="amd"
           fetch="git://git.yoctoproject.org"/>
   <project name="meta-amd"
