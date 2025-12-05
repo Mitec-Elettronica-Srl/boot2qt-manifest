@@ -143,8 +143,8 @@
   <!-- Qt -->
   <project name="meta-qt6"
            remote="qt"
-           revision="3469b07e78c58082c091ddefd7ad2a6e043ec62a"
-           upstream="lts-6.8.6"
+           revision="refs/tags/v6.10.1"
+           upstream="6.10.1"
            path="sources/meta-qt6"/>
 
   <!-- Browser -->
