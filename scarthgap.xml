@@ -12,7 +12,7 @@
 
   <project name="poky"
            remote="yocto"
-           revision="e6bfeed8f3e72c577820e3d01f7d697c4d3fc5d4"
+           revision="9497778a4d756daa29c4fa8d45d1a242d63ab8cc"
            upstream="scarthgap"
            path="sources/poky"/>
   <project name="meta-mingw"
@@ -109,7 +109,7 @@
   <!-- Raspberry Pi -->
   <project name="meta-raspberrypi"
            remote="yocto"
-           revision="8767e2ff80ec3b09cd70dd22cdb18e783ab20d7b"
+           revision="cd677051d18d4af2f043ac1ab58509ae5f594cf6"
            upstream="scarthgap"
            path="sources/meta-raspberrypi"/>
 
