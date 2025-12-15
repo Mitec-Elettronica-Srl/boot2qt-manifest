@@ -72,10 +72,17 @@ Machine is one of the build-machine directory, without build- appendend, for exa
 
 ```sh
 export MACHINE=imx8mm-var-dart
+export VERSION=factory
 source ./setup-environment.sh
 ```
 
 Then you can proceed at building targets:
+
+```sh
+./compile.sh
+```
+
+Or, for a specific target:
 
 ```sh
 bitbake <target>
