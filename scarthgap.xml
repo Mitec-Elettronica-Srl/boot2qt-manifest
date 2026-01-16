@@ -194,7 +194,7 @@
   <project name="build-imx8mm-var-dart"
            remote="mitec"
            path="build-imx8mm-var-dart"
-           revision="019ef145ba504cf786a4288639dfed87543f303c"
+           revision="ccde811ae5defbc4fb9b52ed6cbf617fb536ff77"
            upstream="scarthgap" />
   <project name="meta-MT376R2V1H0"
            remote="mitec"
@@ -249,7 +249,7 @@
   <project name="meta-imx"
            remote="mitec"
            path="sources/meta-imx"
-           revision="ccde811ae5defbc4fb9b52ed6cbf617fb536ff77"
+           revision="a557be9843399679a03298a578912524d0ced680"
            upstream="scarthgap-6.6.52-2.2.1" />
   <project name="meta-nxp-connectivity"
            remote="imx"
