@@ -60,7 +60,7 @@
           fetch="https://github.com/kraj"/>
   <project name="meta-clang"
            remote="mitec"
-           revision="3ef6d99dfd17d1ca01bb99ef6b39783f8cf5ef7e"
+           revision="b430dbd6894f43738084ece6959ef0e707892172"
            upstream="scarthgap-clang20"
            path="sources/meta-clang"/>
 
