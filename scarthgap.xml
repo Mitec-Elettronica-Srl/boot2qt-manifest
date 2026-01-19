@@ -59,8 +59,8 @@
   <remote name="kraj"
           fetch="https://github.com/kraj"/>
   <project name="meta-clang"
-           remote="kraj"
-           revision="2a22a4cb2e5d9ba77848c9b52f2a316f7c6f8f5b"
+           remote="mitec"
+           revision="68862a5c8fea97d95fa0d5dd83764368f87fd664"
            upstream="scarthgap-clang20"
            path="sources/meta-clang"/>
 
