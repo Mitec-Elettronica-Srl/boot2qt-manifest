@@ -249,7 +249,7 @@
   <project name="meta-imx"
            remote="mitec"
            path="sources/meta-imx"
-           revision="134b7f4783193657a00ff2e79ec484d4df40e14c"
+           revision="e00ca1c84206811a98597492996a92b36b08d1b9"
            upstream="scarthgap-6.6.52-2.2.1" />
   <project name="meta-nxp-connectivity"
            remote="imx"
