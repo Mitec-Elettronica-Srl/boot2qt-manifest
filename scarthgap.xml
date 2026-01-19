@@ -199,7 +199,7 @@
   <project name="meta-MT376R2V1H0"
            remote="mitec"
            path="sources/meta-MT376R2V1H0"
-           revision="c4fe687dc61b703e70f149e47321c683162dc8cc"
+           revision="3e791de4481c5d9945c3c8405592f452f287de7a"
            upstream="scarthgap" />
   <project name="meta-mitec"
            remote="mitec"
@@ -249,8 +249,8 @@
   <project name="meta-imx"
            remote="mitec"
            path="sources/meta-imx"
-           revision="fc87cd218f78b00699447dace630d5a009326ed3"
-           upstream="scarthgap-6.6.52-2.2.1" />
+           revision="2f9bb040def60c2d974a6c984763c6b44ac58d66"
+           upstream="scarthgap" />
   <project name="meta-nxp-connectivity"
            remote="imx"
            path="sources/meta-nxp-connectivity"
