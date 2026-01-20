@@ -59,8 +59,8 @@
   <remote name="kraj"
           fetch="https://github.com/kraj"/>
   <project name="meta-clang"
-           remote="mitec"
-           revision="bef9389a2fe4b45c4c6a6a9b77f010a2e4c4f7ce"
+           remote="kraj"
+           revision="542db81d5d3cbddf84a150b088b946734460fee6"
            upstream="scarthgap-clang20"
            path="sources/meta-clang"/>
 
@@ -72,7 +72,7 @@
           fetch="ssh://codereview.qt-project.org/yocto"/>
   <project name="meta-boot2qt"
            remote="mitec"
-           revision="f3beafc54116c952d9d78be77fa15acadce4aaf6"
+           revision="bfd4c1dec3d1ace47f1daed574eb73136e9dc098"
            upstream="scarthgap-correct"
            path="sources/meta-boot2qt">
     <linkfile dest="setup-environment.sh" src="scripts/setup-environment.sh"/>
@@ -194,12 +194,12 @@
   <project name="build-imx8mm-var-dart"
            remote="mitec"
            path="build-imx8mm-var-dart"
-           revision="80d683a0ef598642f3f069e2f4b35763a8d4e2c7"
+           revision="5f9509d96e4e2694da1471dda2d33f6f5c21d91b"
            upstream="scarthgap" />
   <project name="meta-MT376R2V1H0"
            remote="mitec"
            path="sources/meta-MT376R2V1H0"
-           revision="e0e3dc41f2277b4404bf0b22bce0a5e906ce5c59"
+           revision="ce6416d37bcb4f1bddc195dcc344e62cd2fec969"
            upstream="scarthgap" />
   <project name="meta-mitec"
            remote="mitec"
@@ -249,8 +249,8 @@
   <project name="meta-imx"
            remote="mitec"
            path="sources/meta-imx"
-           revision="2f9bb040def60c2d974a6c984763c6b44ac58d66"
-           upstream="scarthgap" />
+           revision="001164547c5094eccbbbc79c10796f6937754bd5"
+           upstream="scarthgap-6.6.52-2.2.1" />
   <project name="meta-nxp-connectivity"
            remote="imx"
            path="sources/meta-nxp-connectivity"
