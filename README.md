@@ -104,3 +104,15 @@ __WARNING__: Doing an unrestricted build will easily occupy more than 60GB of sw
 
 The following is a list of supported devices (MACHINE names):
   - imx8mm-var-dart
+
+## HMI Software
+
+Put the software to be autostarted in */mnt/app/hmi* and optionally place an environment file in */mnt/app/hmidaemon.env*.
+
+the */mnt/app* is a __btrfs__ submodule locked by default, you can unlock it via:
+
+```sh
+btrfs property set -fts /mnt/app ro false
+```
+
+Once done you can snapshot it or use btrfs send to setup production fast-flash.
