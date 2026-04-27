@@ -12,7 +12,7 @@
 
   <project name="poky"
            remote="yocto"
-           revision="9497778a4d756daa29c4fa8d45d1a242d63ab8cc"
+           revision="6a3d16d7b8b9adc096a048e0b2ad463688a23dec"
            upstream="scarthgap"
            path="sources/poky"/>
   <project name="meta-mingw"
@@ -27,12 +27,12 @@
            path="sources/meta-virtualization" />
   <project name="meta-security"
            remote="yocto"
-           revision="bc865c5276c2ab4031229916e8d7c20148dfbac3"
+           revision="b13f1705d723650de61277670c8a76aadea4cfdd"
            upstream="scarthgap"
            path="sources/meta-security" />
   <project name="meta-selinux"
            remote="yocto"
-           revision="1db6bf1b573b9c908752602c1e2b6a30368da3b7"
+           revision="80246964a419701915d020f627fcc9f90b9e8b90"
            upstream="scarthgap"
            path="sources/meta-selinux" />
   <project name="meta-lts-mixins"
