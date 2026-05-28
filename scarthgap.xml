@@ -47,8 +47,10 @@
            path="sources/meta-tensorflow" />
 
   <!-- OpenEmbedded -->
+  <remote name="oe"
+          fetch="https://github.com/openembedded/"/>
   <project name="meta-openembedded"
-           remote="yocto"
+           remote="oe"
            revision="89a01c3d9ad1f8fce6aeb4dd0e694cfa28d42099"
            upstream="scarthgap"
            path="sources/meta-openembedded"/>
