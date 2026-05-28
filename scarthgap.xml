@@ -114,24 +114,18 @@
            path="sources/meta-raspberrypi"/>
 
   <!-- Intel -->
-  <remote name="intel"
-          fetch="git://git.yoctoproject.org"/>
   <project name="meta-intel"
-           remote="intel"
+           remote="yocto"
            revision="6fc37057c7f0293a2345e303588901889df8b937"
            upstream="scarthgap"
            path="sources/meta-intel"/>
 
   <!-- AMD -->
-<!--
-  <remote name="amd"
-          fetch="git://git.yoctoproject.org"/>
   <project name="meta-amd"
-           remote="amd"
+           remote="yocto"
            revision="e591e26ba735dacf5f893154a07becb44a2a12d1"
            upstream="scarthgap"
            path="sources/meta-amd"/>
--->
 
   <!-- NVIDIA -->
   <remote name="OE4T"
