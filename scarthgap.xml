@@ -4,7 +4,7 @@
 
   <!-- Yocto -->
   <remote name="yocto"
-          fetch="git://git.yoctoproject.org"/>
+          fetch="https://git.yoctoproject.org"/>
 
   <!-- MITEC -->
   <remote name="mitec"
