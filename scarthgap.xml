@@ -123,6 +123,7 @@
            path="sources/meta-intel"/>
 
   <!-- AMD -->
+<!--
   <remote name="amd"
           fetch="git://git.yoctoproject.org"/>
   <project name="meta-amd"
@@ -130,6 +131,7 @@
            revision="e591e26ba735dacf5f893154a07becb44a2a12d1"
            upstream="scarthgap"
            path="sources/meta-amd"/>
+-->
 
   <!-- NVIDIA -->
   <remote name="OE4T"
