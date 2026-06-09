@@ -12,7 +12,7 @@
 
   <project name="poky"
            remote="yocto"
-           revision="6a3d16d7b8b9adc096a048e0b2ad463688a23dec"
+           revision="d03f09df0ab0bf326ab1e0d0969f4643a9f8a378"
            upstream="scarthgap"
            path="sources/poky"/>
   <project name="meta-mingw"
