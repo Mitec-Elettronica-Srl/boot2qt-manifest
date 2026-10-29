@@ -176,7 +176,7 @@
   <project name="embedded_quickstart"
            remote="neroreflex"
            path="sources/embedded_quickstart"
-           revision="0947829355b86d20fad34e3667ab2a02d3dd3c6b"
+           revision="e561f1677a4a015bb2d55337080535b73fb930d4"
            upstream="scarthgap" >
 
         <linkfile dest="compile.sh" src="meta-embedded_quickstart/build.sh"/>
@@ -195,7 +195,7 @@
   <project name="meta-MT376R2V1H0"
            remote="mitec"
            path="sources/meta-MT376R2V1H0"
-           revision="ded1aecb0531472436fb99c6d69d206a1b04c714"
+           revision="a03fe1772dd8af084ebf29b6dd61dede844de4bc"
            upstream="scarthgap" />
   <project name="meta-mitec"
            remote="mitec"
